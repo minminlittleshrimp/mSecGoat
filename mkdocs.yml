@@ -1,0 +1,32 @@
+site_name: mSecGoat Labs
+site_description: Crypto Execution & Automotive SoC Security DIY
+docs_dir: sessions
+site_url: https://minminlittleshrimp.github.io/mSecGoat
+repo_url: https://github.com/minminlittleshrimp/mSecGoat
+use_directory_urls: true
+nav:
+  - Home: index.md
+  - Series A:
+    - '01 — Entropy': series-a/01-entropy.md
+    - '02 — Key Formats': series-a/02-key-formats.md
+    - '03 — CBC Confidentiality': series-a/03-cbc-confidentiality.md
+    - '04 — AEAD AES-GCM': series-a/04-aead-aes-gcm.md
+    - '05 — Hash Misuse': series-a/05-hash-misuse-sha256.md
+    - '06 — PBKDF2': series-a/06-pbkdf2-password-derivation.md
+    - '07 — Secure File Pipeline': series-a/07-secure-file-pipeline.md
+    - '08 — Asymmetric Misuse': series-a/08-asymmetric-misuse-boundaries.md
+    - '09 — ECDH': series-a/09-ecdh-key-exchange.md
+    - '10 — TLS 1.3': series-a/10-tls13-transport-security.md
+  - Series B:
+    - '01 — Threat Modeling': series-b/01-threat-modeling.md
+    - '02 — Secure Boot': series-b/02-secure-boot-chain-of-trust.md
+    - '03 — OP-TEE': series-b/03-optee-trusted-execution.md
+    - '04 — Key Management': series-b/04-key-management-lifecycle.md
+    - '05 — OS Hardening': series-b/05-os-hardening.md
+    - '06 — IPC/Middleware': series-b/06-ipc-middleware-security.md
+    - '07 — Secure Logging': series-b/07-secure-logging.md
+    - '08 — OTA Updates': series-b/08-ota-update-security.md
+    - '09 — Network Security': series-b/09-network-security-tls13.md
+    - '10 — Exploitation Reality': series-b/10-exploitation-reality.md
+theme:
+  name: material
