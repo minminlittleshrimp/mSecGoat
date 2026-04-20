@@ -1,11 +1,9 @@
 Overview
 
-This training repository provides short runnable demos focused on secure use of crypto in embedded IVI systems.
+Sessions are organized into three levels under sessions/:
 
-Structure
-- sessions/: hands-on exercises S01..S20 (each has a README and a runnable demo)
-- engine/: a standalone key engine (simulates hardware/TEE boundary)
-- wrapper/: safe and intentionally-broken wrappers that call the engine
-- labs/: helper scripts to run many sessions end-to-end
+- basic/: S01–S08 (primitives, fast onboarding)
+- intermediate/: S09–S15 + S21–S26 (engine behavior, integration, common attacks)
+- advanced/: S16–S20 (OpenSSL/BoringSSL differences, failure lab, lifecycle)
 
-Goal: make engineers capable of using OpenSSL/BoringSSL at a safe surface and recognise common integration mistakes.
+Use labs/run_all.py to run curated sessions in that order.
