@@ -72,3 +72,17 @@ License
 This training content is provided for internal training and demo use.
 
 Enjoy — run the labs and break things safely.
+
+Docs (Sphinx)
+-------------
+Build and serve documentation locally:
+
+  # install docs dependencies
+  pip install -r requirements.txt
+
+  # build
+  make docs-build
+
+  # serve at http://localhost:1234
+  make docs-run
+
